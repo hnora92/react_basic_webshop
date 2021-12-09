@@ -17,7 +17,6 @@
   padding: 15px;
   margin-bottom: 20px;
 
-  border: 1px solid rgb(143, 143, 143);
   border-radius: 5px;
   box-shadow: 0 2px 20px grey;
   background-color: rgb(241, 240, 240);
@@ -78,7 +77,6 @@ input{
   padding-top: 12px;
   margin-left: 420px;
   
-  border: 1px solid rgb(0, 0, 0);
   border-radius: 100%;
 
   width: 50px;
