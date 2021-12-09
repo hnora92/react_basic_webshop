@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+  
+#cards-container{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(30rem,30rem));
+    gap: 3rem;
+    justify-content: center;
+
+}
+  
+.cards{
+  padding: 15px;
+  margin-bottom: 20px;
+
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 5px;
+  box-shadow: 0 2px 20px grey;
+  background-color: rgb(235, 233, 233);
+  
+}
+
+#cardTitle{
+  text-align: center;
+}
+
+.greyBtn{
+  background-color: rgb(189, 185, 185);
+  color: rgb(153, 148, 148);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  padding: 2px;
+
+  cursor: pointer;
+  border-radius: 5px;
+
+  height: 30px;
+  width: 150px;
+
+  border: 1px solid gray ;
+}
+
+input{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin-right: 50px;
+}
+
+.descriptionBox{
+  padding-top: 45px;
+  height: 140px;
+  text-align: center;
+}
+
+.opinionBox{
+  text-align: center;
+  height: 140px;
+}
+
+
+
+.foryou{
+  position: absolute;
+
+  padding-top: 12px;
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 100%;
+
+  width: 50px;
+  height: 50px;
+
+  font-size: smaller;
+  text-align: center;
+  background-color: rgb(44, 43, 43);
+  color: white;
+}
+
+.error{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: rgb(134, 131, 131);
+}

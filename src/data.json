@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Some fancy product",
+        "description": "Soo good because soo good",
+        "price": "70 USD",
+        "opinions": [
+            {"text": "I liked it", "username": "(Fred)"},
+            {"text": "I liked it soo much", "username": "(John)"}
+        ],
+        "isRecommended": false,
+        "discount":false
+    },
+    {
+        "id":2,
+        "name": "Not so fancy product",
+        "description": "Not soo good because not soo good",
+        "price": "7 USD",
+        "opinions": [
+            {"text": "I did not like it", "username": "(James)"},
+            {"text": "I hated it", "username": "(Bob)"}
+        ],
+        "isRecommended": true,
+        "discount":true
+    },
+    {
+        "id":3,
+        "name": "A product",
+        "description": "It exists",
+        "price": "17 EUR",
+        "opinions": [
+            {"text": "I have it", "username": "(Harry)"}
+        ],
+        "isRecommended": false,
+        "discount":false
+    },
+    {   
+        "id":4,
+        "name": "Another fancy product",
+        "description": "Also good",
+        "price": "80 USD",
+        "opinions": [
+            {"text": "I liked it as well", "username": "(Fred)"},
+            {"text": "I liked it soo much", "username": "(Rob)"},
+            {"text": "I just liked it", "username": "(Sam)"}
+        ],
+        "isRecommended": true,
+        "discount":false
+    },
+    {
+        "id":5,
+        "name": "Who knows what",
+        "description": "Someone must",
+        "price": "27 USD",
+        "opinions": [
+            {"text": "What is this", "username": "(Clark)"}
+        ],
+        "isRecommended": false,
+        "discount":true
+    }
+
+]
