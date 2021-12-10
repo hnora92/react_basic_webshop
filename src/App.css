@@ -65,8 +65,11 @@ input{
 }
 
 .opinionBox{
-  text-align: center;
   height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 
