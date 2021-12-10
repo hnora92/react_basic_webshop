@@ -29,7 +29,7 @@ function Card({ data }) {
             <div className="button-container">
             <button className="btn" onClick={() => setToggle(!toggle) > btnTextChangeFunction()}>{text}</button>
             <button className="btn greyBtn">Add to cart</button> </div>
-            {data.discount ? <p>Discount!</p> : null}
+            {data.discount ? <p className="disc">Discount!</p> : null}
         </div>
     )
 }
